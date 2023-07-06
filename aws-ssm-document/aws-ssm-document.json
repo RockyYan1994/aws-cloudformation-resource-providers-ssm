@@ -174,9 +174,16 @@
         "/properties/Name",
         "/properties/DocumentType"
     ],
+    "writeOnlyProperties": [
+        "/properties/UpdateMethod",
+        "/properties/Attachments"
+    ],
     "primaryIdentifier": [
         "/properties/Name"
     ],
+    "tagging": {
+        "taggable": true
+    },
     "handlers": {
         "create": {
             "permissions": [
